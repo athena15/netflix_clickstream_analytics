@@ -88,3 +88,15 @@ JOIN dim_movies m ON e.movie_id = m.movie_id
 WHERE e.date_day = DATE '2019-05-15'
 ORDER BY e.total_watch_time_seconds DESC
 LIMIT 20;
+
+-- get top 20 movies by total view count for May 15
+SELECT
+    m.title,
+    m.genres,
+    e.view_count,
+    e.total_watch_time_seconds/3600 as watch_time_hours
+FROM daily_movie_engagement e
+JOIN dim_movies m ON e.movie_id = m.movie_id
+WHERE e.date_day = DATE '2019-05-15'
+ORDER BY e.view_count DESC
+LIMIT 20;
