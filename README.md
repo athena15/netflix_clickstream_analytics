@@ -1,7 +1,7 @@
 # Netflix Clickstream Analytics
 with Confluent Cloud and Flink SQL
 
-A Python script that streams movie viewing event data from the [Netflix audience behaviour - UK movies dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies) from Kaggle, to Confluent Cloud using Avro serialization.
+A Python script that streams movie viewing event data from the [Netflix audience behaviour - UK movies dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies) from Kaggle, to Confluent Cloud using Avro serialization. We then query the and analyze the data with Flink SQL.
 
 ## Prerequisites
 
