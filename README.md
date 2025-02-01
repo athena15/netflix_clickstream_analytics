@@ -6,7 +6,7 @@ A Python script that streams movie viewing event data from the [Netflix audience
 ## Prerequisites
 
 - Python 3.7+
-- Confluent Cloud account
+- [Confluent Cloud](https://confluent.cloud) account
 - A copy of the Netflix clickstream dataset on [Kaggle](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies)
 
 ## Installation
