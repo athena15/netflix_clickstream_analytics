@@ -1,4 +1,5 @@
-# Kafka Movie Stream Producer
+# Netflix Clickstream Analytics
+with Confluent Cloud and Flink SQL
 
 A Python script that streams movie viewing event data from the [Netflix audience behaviour - UK movies dataset](https://www.kaggle.com/datasets/vodclickstream/netflix-audience-behaviour-uk-movies) from Kaggle, to Confluent Cloud using Avro serialization.
 
@@ -18,7 +19,7 @@ cd kafka_movie_stream_producer
 
 2. Install required packages:
 ```bash
-pip install confluent-kafka pandas python-dotenv
+pip install -r requirements.txt
 ```
 
 3. Create a `.env` file in the project root with your Confluent Cloud credentials:
